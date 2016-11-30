@@ -9,36 +9,35 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Inconsolata", monospace; }
 
 h1 {
-  font-size: 7vw;
-  letter-spacing: .0625rem;
-  line-height: .0625rem; }
+  font-size: 7rem;
+  letter-spacing: .0625rem; }
 
 h2 {
-  font-size: 3rem;
+  font-size: 5.5rem;
   letter-spacing: .03125rem; }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   letter-spacing: .03125rem; }
 
 h4 {
-  font-size: 2.25rem;
+  font-size: 3.5rem;
   letter-spacing: .03125rem; }
 
 h5 {
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: .03125rem; }
 
 h6 {
-  font-size: 1.75rem;
+  font-size: 2.75rem;
   letter-spacing: .03125rem; }
 
 p {
   font-family: "Inconsolata", monospace;
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: #000000;
-  letter-spacing: 0.25px;
-  line-height: 2.25rem; }
+  letter-spacing: 0.0125rem;
+  line-height: 3rem; }
   p a {
     transition: .2s all;
     text-decoration: none;
@@ -59,19 +58,14 @@ p {
   margin: auto; }
 
 blockquote {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
   font-size: 36px;
-  color: #000000;
+  color: #848484;
   line-height: 50px;
   padding-left: 2rem;
   margin: 3.5rem 0;
   position: relative; }
-  blockquote span {
-    width: 2px;
-    background: black;
-    height: 50%;
-    position: absolute;
-    left: 0;
-    top: 25%; }
 
 button {
   transition: .2s all;
@@ -80,7 +74,8 @@ button {
   padding: 1rem 2rem; }
   button:hover {
     padding-left: 5rem;
-    padding-right: 1rem; }
+    padding-right: 1rem;
+    text-decoration: none; }
   button:focus {
     outline: none; }
   button a {
@@ -88,3 +83,9 @@ button {
     transition: .2s all;
     font-size: 16px;
     color: #FFFFFF; }
+    button a:hover {
+      text-decoration: none;
+      color: white; }
+
+.fixed-wrap {
+  position: fixed; }
