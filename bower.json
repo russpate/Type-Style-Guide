@@ -1,0 +1,17 @@
+{
+  "name": "Type-Style-Guide",
+  "homepage": "https://github.com/russpate/Type-Style-Guide",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.5"
+  }
+}
